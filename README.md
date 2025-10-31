@@ -22,6 +22,19 @@ A smart web application that reads academic **research papers (PDFs)**, extracts
 
 <img width="771" height="489" alt="image" src="https://github.com/user-attachments/assets/446d8c64-f237-4b32-86e2-0dfa502fa5e6" />
 
+## Tech Stack 
+
+| Layer                       | Tools                                                      |
+| --------------------------- | ---------------------------------------------------------- |
+| **Frontend**                | Streamlit                                                  |
+| **Backend / LLM Interface** | OpenAI API / Hugging Face Transformers                     |
+| **Embeddings & Search**     | OpenAI Embeddings / Sentence Transformers + FAISS / Chroma |
+| **Text Extraction**         | PyMuPDF (fitz)                                             |
+| **Chunking & Workflow**     | LangChain                                                  |
+| **Chat Handling**           | ConversationalRetrievalChain (LangChain)                   |
+| **Language**                | Python 3.10+                                               |
+
+
 
 ## 🏗️ Project Architecture
 
