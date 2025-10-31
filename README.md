@@ -17,6 +17,7 @@ A smart web application that reads academic **research papers (PDFs)**, extracts
 | 🧩 **Modular Codebase** | Clear separation of modules for easy extensibility |
 
 ---
+
 ## Folder Structure
 bash
 
