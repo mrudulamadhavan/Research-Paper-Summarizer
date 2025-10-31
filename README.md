@@ -31,6 +31,9 @@ E --> G[Q&A Retrieval Chain]
 F --> H[Structured Summary Output]
 G --> I[Chatbot Interface]
 
+
+----
+
 ## Folder Structure
 bash
 
