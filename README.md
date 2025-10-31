@@ -20,18 +20,6 @@ A smart web application that reads academic **research papers (PDFs)**, extracts
 
 ## Folder Structure
 
-ai_paper_summarizer/
-│
-├── app.py                        # Streamlit main application
-├── requirements.txt
-│
-├── modules/
-│   ├── pdf_parser.py             # PDF extraction
-│   ├── chunker.py                # Text splitting
-│   ├── summarizer.py             # LLM summarization
-│   ├── vector_store.py           # Embeddings + FAISS/Chroma
-│   └── chatbot.py                # Conversational Q&A logic
-│
-├── uploads/                      # Uploaded PDF files
-└── outputs/                      # Generated summaries
+<img width="771" height="489" alt="image" src="https://github.com/user-attachments/assets/446d8c64-f237-4b32-86e2-0dfa502fa5e6" />
+
 
