@@ -23,3 +23,17 @@ A smart web application that reads academic **research papers (PDFs)**, extracts
 <img width="771" height="489" alt="image" src="https://github.com/user-attachments/assets/446d8c64-f237-4b32-86e2-0dfa502fa5e6" />
 
 
+## 🏗️ Project Architecture
+
+```mermaid
+graph TD
+A[Upload PDF] --> B[Text Extraction via PyMuPDF]
+B --> C[Text Chunking - LangChain Splitter]
+C --> D[Embedding Generation - OpenAI/Sentence Transformers]
+D --> E[Vector Store - FAISS/Chroma]
+E --> F[Summarization - GPT-4/LLaMA]
+E --> G[Q&A Retrieval Chain]
+F --> H[Structured Summary Output]
+G --> I[Chatbot Interface]
+
+
