@@ -30,3 +30,22 @@ E --> F[Summarization - GPT-4/LLaMA]
 E --> G[Q&A Retrieval Chain]
 F --> H[Structured Summary Output]
 G --> I[Chatbot Interface]
+
+## Folder Structure
+bash
+
+ai_paper_summarizer/
+│
+├── app.py                        # Streamlit main application
+├── requirements.txt
+│
+├── modules/
+│   ├── pdf_parser.py             # PDF extraction
+│   ├── chunker.py                # Text splitting
+│   ├── summarizer.py             # LLM summarization
+│   ├── vector_store.py           # Embeddings + FAISS/Chroma
+│   └── chatbot.py                # Conversational Q&A logic
+│
+├── uploads/                      # Uploaded PDF files
+└── outputs/                      # Generated summaries
+
