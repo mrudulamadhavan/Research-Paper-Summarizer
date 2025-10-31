@@ -1,7 +1,6 @@
-# 🧠 AI Research Paper Summarizer using LLM & Generative AI
+# 🧠 AI Research Paper Summarizer
 
-A smart web application that reads academic **research papers (PDFs)**, extracts their contents, and generates **human-friendly summaries, keywords, and insights** using **Large Language Models (LLMs)**.  
-It also provides an **interactive chatbot** that allows users to ask questions about the paper, powered by **retrieval-augmented generation (RAG)**.
+A smart web application that reads academic **research papers (PDFs)**, extracts their contents, and generates **human-friendly summaries, keywords, and insights** using **Large Language Models (LLMs)**. It also provides an **interactive chatbot** that allows users to ask questions about the paper, powered by **retrieval-augmented generation (RAG)**.
 
 ---
 
