@@ -19,7 +19,6 @@ A smart web application that reads academic **research papers (PDFs)**, extracts
 ---
 
 ## Folder Structure
-bash
 
 ai_paper_summarizer/
 │
